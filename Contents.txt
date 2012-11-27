@@ -1,0 +1,16 @@
+Eventually this will be a list of code I have been meaning to put out there
+for a while. For now, it has:
+
+DoScreenDemo
+------------
+A not up to my standards bit of code that provides a class and a category
+that should handle 90% or so of what is needed to make your App work in
+Portrait on both a 3.5" and 4" display. It assumes Apps that use view elements
+that are either UIView or a subclass (i.e., almost all of them). It is not
+meant for graphical apps using GL or similar (though the visual elements that
+are not rendered can be updated... as I did with Gluey.)
+
+It should be pretty straightforward to update the code for Landscape.
+
+Enjoy.
+
